@@ -1,0 +1,10 @@
+main {
+    width: var(--width);
+    margin: 0 auto;
+    text-align: center;
+}
+
+#hero h1 {
+
+    font-size: 5rem;
+}
