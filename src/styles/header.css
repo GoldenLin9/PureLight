@@ -3,6 +3,8 @@
 nav ul {
     display: flex;
     list-style-type: none;
+    margin: 0;
+    padding: 1em;
 
     justify-content: space-evenly;
 }
@@ -12,7 +14,31 @@ nav li {
     font-size: 2rem;
 }
 
-header {
+html {
+    margin: 0;
+    padding: 0;
+}
+
+#hero h1 {
+
+    font-size: 5rem;
+}
+
+#hero, nav {
     width: var(--width);
     margin: 0 auto;
+    text-align: center;
+}
+
+#heroContainer {
+    background-image: url("https://picsum.photos/seed/picsum/2000");
+    padding: 1em;
+}
+
+nav {
+    padding: 1em;
+}
+
+header {
+    background-color: var(--primary);
 }

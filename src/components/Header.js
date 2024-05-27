@@ -14,8 +14,21 @@ export default function Header() {
                 <li>Meet the Team</li>
             </ul>
 
-
         </nav>
+
+      <div id = "heroContainer">
+
+        <div id = "hero">
+
+          <h1>PureLight Real Estate Wholesaling</h1>
+
+          <h2>Slogan: Nation Wide is on your side</h2>
+
+        </div>
+
+
+      </div>
+
 
 
     </header>

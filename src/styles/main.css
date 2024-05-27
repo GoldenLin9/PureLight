@@ -1,10 +1,30 @@
-main {
+
+
+#container {
     width: var(--width);
     margin: 0 auto;
     text-align: center;
+    padding: 1em;
 }
 
-#hero h1 {
+#buyerSellerForms {
+    display: flex;
+    justify-content: space-around;
+}
 
-    font-size: 5rem;
+a {
+    background-color: var(--secondary);
+    border-radius: 15%;
+    padding: 1ch 2ch;
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: var(--accent);
+}
+
+a:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+a {
 }
